@@ -4,6 +4,11 @@
 
 Corrige las declaraciones para crear arrays válidos de int, double y String.
 
+### Detalles
+
+- Declara `scores` como array de 5 `int`, `temperatures` como array de 3 `double` y `names` como array de 2 `String`.
+- Muestra la longitud (`length`) de cada array con las etiquetas de la salida esperada.
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -30,4 +35,5 @@ String: 2
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

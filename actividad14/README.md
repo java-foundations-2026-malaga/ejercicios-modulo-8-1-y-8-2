@@ -4,6 +4,11 @@
 
 Elimina de forma segura los pares del 1 al 20 mediante iterator.remove().
 
+### Detalles
+
+- Recorrer la lista con for-each y llamar a `numbers.remove(...)` lanza `ConcurrentModificationException`. Usa un `Iterator` y `iterator.remove()`.
+- Muestra la lista antes (`Antes: ...`) y después (`Después: ...`) de eliminar los pares.
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -29,4 +34,5 @@ Después: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

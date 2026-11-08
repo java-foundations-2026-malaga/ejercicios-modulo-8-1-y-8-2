@@ -4,6 +4,10 @@
 
 Usa get y set para consultar y modificar una lista dinámica.
 
+### Detalles
+
+- Muestra `"Primero: " + students.get(0)`, cambia el segundo elemento por `Robert` con `set` y muestra `"Lista: " + students`.
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -29,4 +33,5 @@ Lista: [Ana, Robert]
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

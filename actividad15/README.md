@@ -4,6 +4,12 @@
 
 Lee estudiantes y notas, calcula la media, muestra quién la supera y elimina por nombre.
 
+### Detalles
+
+- Lee del teclado (`Scanner`): el número de estudiantes `n`, después `n` parejas `nombre nota` y, por último, el nombre del estudiante que hay que eliminar. Con la entrada `3 Ana 8 Luis 6 Marta 9 Luis` se obtiene la salida esperada.
+- Guarda los nombres en un `ArrayList<String>` y las notas en un array `double[]`.
+- Muestra cada estudiante con su nota, la media, los que están por encima de la media, el eliminado y la lista final. No muestres mensajes de petición.
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -41,4 +47,5 @@ Estudiantes: [Ana, Marta]
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

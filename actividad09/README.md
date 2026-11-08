@@ -4,6 +4,11 @@
 
 Lee cinco puntuaciones, guárdalas en un array y calcula su media.
 
+### Detalles
+
+- Lee las cinco notas con el `Scanner` (por ejemplo, con la entrada `70 80 90 60 100` la media es 80.0) y guárdalas en `scores` con un bucle.
+- No muestres mensajes de petición: la única salida debe ser la línea `Media: ...`.
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -34,4 +39,5 @@ Media: 80.0
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

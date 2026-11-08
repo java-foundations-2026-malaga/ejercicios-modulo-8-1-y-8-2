@@ -4,6 +4,10 @@
 
 Crea cuatro nombres y muéstralos con un bucle for normal.
 
+### Detalles
+
+- Crea un array `String[]` con Ana, Bruno, Carla y Diego y muestra cada nombre en una línea con un `for` con índice (`for (int i = 0; ...)`).
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -31,4 +35,5 @@ Diego
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

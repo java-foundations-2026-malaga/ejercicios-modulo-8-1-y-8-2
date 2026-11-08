@@ -4,6 +4,10 @@
 
 Añade cuatro estudiantes, imprime la lista y muestra su tamaño.
 
+### Detalles
+
+- Crea un `ArrayList<String>`, añade Amy, Bob, Cindy y David con `add`, imprime la lista y después `"Tamaño: " + students.size()`.
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -29,4 +33,5 @@ Tamaño: 4
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

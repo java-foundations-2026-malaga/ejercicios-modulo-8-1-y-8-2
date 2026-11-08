@@ -4,6 +4,10 @@
 
 Inicializa con 1 las diez posiciones de un array de byte.
 
+### Detalles
+
+- Usa un bucle (o `java.util.Arrays.fill`) para poner a 1 las diez posiciones; ten en cuenta que asignar un `int` a un `byte` puede requerir un cast `(byte)`.
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -28,4 +32,5 @@ Inicializa con 1 las diez posiciones de un array de byte.
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

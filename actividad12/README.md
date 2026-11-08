@@ -4,6 +4,11 @@
 
 Inserta Nick y Mike y elimina el elemento situado en el índice 3.
 
+### Detalles
+
+- Inserta `Nick` en la posición 0 y `Mike` en la posición 1 con `add(indice, valor)`; después elimina el elemento del índice 3 con `remove(3)`.
+- Imprime la lista y `"Tamaño: " + students.size()`.
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -29,4 +34,5 @@ Tamaño: 5
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.
